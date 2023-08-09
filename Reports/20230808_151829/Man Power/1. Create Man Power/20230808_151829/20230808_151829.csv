@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Create Man Power,Firefox 102.0,Create Man Power,,2023-08-08 15:18:37,2023-08-08 15:20:34,1m - 56.302s,FAILED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.1 Mengakses halaman ManPower List seharusnya data berhasil tampil,Firefox 102.0,Create Man Power,Create Man Power,2023-08-08 15:18:38,2023-08-08 15:19:41,1m - 3.045s,FAILED
+"openBrowser("""")",Firefox 102.0,,,2023-08-08 15:18:39,2023-08-08 15:19:19,39.599s,PASSED
+navigateToUrl(url),Firefox 102.0,,,2023-08-08 15:19:19,2023-08-08 15:19:29,10.065s,PASSED
+maximizeWindow(),Firefox 102.0,,,2023-08-08 15:19:29,2023-08-08 15:19:30,0.639s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 102.0,,,2023-08-08 15:19:30,2023-08-08 15:19:33,3.836s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 15:19:33,2023-08-08 15:19:37,3.098s,PASSED
+takeFullPageScreenshot(),Firefox 102.0,,,2023-08-08 15:19:37,2023-08-08 15:19:41,4.779s,FAILED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit,Firefox 102.0,Create Man Power,Create Man Power,2023-08-08 15:19:42,2023-08-08 15:20:34,51.928s,FAILED
+"openBrowser("""")",Firefox 102.0,,,2023-08-08 15:19:43,2023-08-08 15:20:21,38.119s,PASSED
+navigateToUrl(url),Firefox 102.0,,,2023-08-08 15:20:21,2023-08-08 15:20:27,5.598s,PASSED
+maximizeWindow(),Firefox 102.0,,,2023-08-08 15:20:27,2023-08-08 15:20:27,0.095s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 102.0,,,2023-08-08 15:20:27,2023-08-08 15:20:31,3.550s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 15:20:31,2023-08-08 15:20:34,3.011s,PASSED
+takeFullPageScreenshot(),Firefox 102.0,,,2023-08-08 15:20:34,2023-08-08 15:20:34,0.120s,FAILED

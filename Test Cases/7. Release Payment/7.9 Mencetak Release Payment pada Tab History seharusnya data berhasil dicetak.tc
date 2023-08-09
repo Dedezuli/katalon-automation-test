@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Release Payment</description>
+   <name>7.9 Mencetak Release Payment pada Tab History seharusnya data berhasil dicetak</name>
+   <tag>Create Release Payment</tag>
+   <comment></comment>
+   <testCaseGuid>d3ab92ca-dea2-44a1-8849-4c3298eaa32b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a4d47d5-b347-4eb8-a1ef-e72aaee36e22</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43f759c3-a3b9-4322-b640-852e3e4136d0</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca22092c-fc35-4fda-90e1-3aaf4043adf0</id>
+      <masked>false</masked>
+      <name>dateRelease</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e181a066-40e5-4da1-b87f-8a38f9488ca3</id>
+      <masked>false</masked>
+      <name>Requestor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bff6fdb9-865c-494d-a245-4452c4d55ffa</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

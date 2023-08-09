@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Create Man Power,Firefox 102.0,Create Man Power,,2023-08-08 15:56:45,2023-08-08 15:59:15,2m - 30.050s,FAILED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.1 Mengakses halaman ManPower List seharusnya data berhasil tampil,Firefox 102.0,Create Man Power,Create Man Power,2023-08-08 15:56:46,2023-08-08 15:58:36,1m - 49.616s,FAILED
+"openBrowser("""")",Firefox 102.0,,,2023-08-08 15:56:47,2023-08-08 15:58:03,1m - 16.220s,PASSED
+navigateToUrl(url),Firefox 102.0,,,2023-08-08 15:58:03,2023-08-08 15:58:14,10.126s,PASSED
+maximizeWindow(),Firefox 102.0,,,2023-08-08 15:58:14,2023-08-08 15:58:19,5.649s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 102.0,,,2023-08-08 15:58:19,2023-08-08 15:58:23,3.549s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 15:58:23,2023-08-08 15:58:26,3.246s,PASSED
+takeScreenshot(),Firefox 102.0,,,2023-08-08 15:58:26,2023-08-08 15:58:28,2.021s,PASSED
+"setText(findTestObject(""Login/input_UserName""), Username)",Firefox 102.0,,,2023-08-08 15:58:28,2023-08-08 15:58:30,2.086s,PASSED
+"setText(findTestObject(""Login/input_Password""), Password)",Firefox 102.0,,,2023-08-08 15:58:30,2023-08-08 15:58:31,0.882s,PASSED
+"setText(findTestObject(""Login/input_Captcha""), ""aa"")",Firefox 102.0,,,2023-08-08 15:58:31,2023-08-08 15:58:32,0.919s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 15:58:32,2023-08-08 15:58:35,3.021s,PASSED
+takeFullPageScreenshot(),Firefox 102.0,,,2023-08-08 15:58:35,2023-08-08 15:58:36,1.060s,FAILED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit,Firefox 102.0,Create Man Power,Create Man Power,2023-08-08 15:58:36,2023-08-08 15:59:15,39.134s,FAILED
+"openBrowser("""")",Firefox 102.0,,,2023-08-08 15:58:37,2023-08-08 15:59:05,28.282s,PASSED
+navigateToUrl(url),Firefox 102.0,,,2023-08-08 15:59:05,2023-08-08 15:59:10,4.620s,PASSED
+maximizeWindow(),Firefox 102.0,,,2023-08-08 15:59:10,2023-08-08 15:59:10,0.063s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 102.0,,,2023-08-08 15:59:10,2023-08-08 15:59:12,2.320s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 15:59:12,2023-08-08 15:59:15,3.017s,PASSED
+takeFullPageScreenshot(),Firefox 102.0,,,2023-08-08 15:59:15,2023-08-08 15:59:15,0.107s,FAILED

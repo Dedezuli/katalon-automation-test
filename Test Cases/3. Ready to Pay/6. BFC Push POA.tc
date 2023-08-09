@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BFC Push POA</description>
+   <name>6. BFC Push POA</name>
+   <tag>BFC Push POA</tag>
+   <comment></comment>
+   <testCaseGuid>a521ce56-eb2e-4187-a33f-110a9133cb85</testCaseGuid>
+</TestCaseEntity>

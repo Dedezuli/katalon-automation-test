@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "role": "user"
+    }
+  ],
+  "consumers": [
+    {
+      "id": "c123",
+      "name": "Alice Johnson",
+      "age": 28,
+      "email": "alice@example.com"
+    },
+    {
+      "id": "c456",
+      "name": "Bob Williams",
+      "age": 35,
+      "email": "bob@example.com"
+    }
+  ]
+}

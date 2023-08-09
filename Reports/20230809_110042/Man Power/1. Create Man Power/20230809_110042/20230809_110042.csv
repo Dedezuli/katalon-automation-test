@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Create Man Power,Chrome 115.0.0.0,Create Man Power,,2023-08-09 11:00:48,2023-08-09 11:01:57,1m - 8.561s,FAILED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.1 Mengakses halaman ManPower List seharusnya data berhasil tampil,Chrome 115.0.0.0,Create Man Power,Create Man Power,2023-08-09 11:00:49,2023-08-09 11:01:32,43.539s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-09 11:00:49,2023-08-09 11:01:04,15.264s,PASSED
+navigateToUrl(url),Chrome 115.0.0.0,,,2023-08-09 11:01:04,2023-08-09 11:01:08,3.807s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-09 11:01:08,2023-08-09 11:01:08,0.203s,PASSED
+"click(findTestObject(""Login/a_Login""))",Chrome 115.0.0.0,,,2023-08-09 11:01:08,2023-08-09 11:01:10,1.532s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:01:10,2023-08-09 11:01:13,3.048s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-09 11:01:13,2023-08-09 11:01:14,0.517s,PASSED
+"setText(findTestObject(""Login/input_UserName""), Username)",Chrome 115.0.0.0,,,2023-08-09 11:01:14,2023-08-09 11:01:14,0.893s,PASSED
+"setText(findTestObject(""Login/input_Password""), Password)",Chrome 115.0.0.0,,,2023-08-09 11:01:14,2023-08-09 11:01:15,0.815s,PASSED
+"setText(findTestObject(""Login/input_Captcha""), ""aa"")",Chrome 115.0.0.0,,,2023-08-09 11:01:15,2023-08-09 11:01:16,0.875s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:01:16,2023-08-09 11:01:19,3.010s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-09 11:01:19,2023-08-09 11:01:20,0.393s,PASSED
+"click(findTestObject(""Login/button_Log In""))",Chrome 115.0.0.0,,,2023-08-09 11:01:20,2023-08-09 11:01:21,1.172s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:01:21,2023-08-09 11:01:24,3.012s,PASSED
+"navigateToUrl(""https://newprmdev.kalbenutritionals.web.id/PromoOnline/ManPower"")",Chrome 115.0.0.0,,,2023-08-09 11:01:24,2023-08-09 11:01:24,0.633s,PASSED
+"click(findTestObject(""Ready to Pay/Maximize""))",Chrome 115.0.0.0,,,2023-08-09 11:01:24,2023-08-09 11:01:24,0.004s,NOT_RUN
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:01:24,2023-08-09 11:01:27,3.020s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-09 11:01:27,2023-08-09 11:01:30,2.736s,PASSED
+"verifyElementPresent(findTestObject(""Man Power/Man Power List/a_List Form RFP""), 3)",Chrome 115.0.0.0,,,2023-08-09 11:01:30,2023-08-09 11:01:31,0.842s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-09 11:01:31,2023-08-09 11:01:32,1.266s,PASSED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit,Chrome 115.0.0.0,Create Man Power,Create Man Power,2023-08-09 11:01:33,2023-08-09 11:01:57,24.021s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-09 11:01:33,2023-08-09 11:01:39,6.418s,PASSED
+navigateToUrl(url),Chrome 115.0.0.0,,,2023-08-09 11:01:39,2023-08-09 11:01:48,8.313s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-09 11:01:48,2023-08-09 11:01:48,0.148s,PASSED
+"click(findTestObject(""Login/a_Login""))",Chrome 115.0.0.0,,,2023-08-09 11:01:48,2023-08-09 11:01:52,4.405s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:01:52,2023-08-09 11:01:55,3.024s,PASSED
+takeFullPageScreenshot(),Chrome 115.0.0.0,,,2023-08-09 11:01:55,2023-08-09 11:01:57,1.195s,FAILED

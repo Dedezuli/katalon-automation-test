@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Release Payment</description>
+   <name>7.1 Mengakses halaman Release Payment Tab To Do List seharusnya data berstatus DRAFT atau ON PROGRESS tampil</name>
+   <tag>Create Release Payment</tag>
+   <comment></comment>
+   <testCaseGuid>89ed0f64-8a9d-4367-a4b3-2426707227c5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e964bf0-3a49-4a0f-bc21-8cf5f510c754</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f719b204-166f-4e27-9660-9d7ed1ffe990</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b1e391e-141d-4091-af5b-8b1b1f5bda84</id>
+      <masked>false</masked>
+      <name>dateRelease</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5cd8b6c9-d12b-45bc-a595-f77e220c737d</id>
+      <masked>false</masked>
+      <name>Requestor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e057075-0dfd-4d5c-b1d2-1b5dcb449034</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Release Payment</description>
+   <name>7.5 Mencari data pada Tab History seharusnya data yang dicari berhasil tampil</name>
+   <tag>Create Release Payment</tag>
+   <comment></comment>
+   <testCaseGuid>65497af7-827b-4e6f-8d6d-4a060568b8b1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5cb60852-5983-4932-af37-0e824e16900a</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6593060-5d0d-423f-9458-b126d9332f3f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f96f7b00-7009-493d-9e3f-13beee1fad50</id>
+      <masked>false</masked>
+      <name>dateRelease</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da440388-639b-49c4-aa2c-18a3b54eb562</id>
+      <masked>false</masked>
+      <name>Requestor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>60d34ed6-45da-40db-b912-947dbd6518fc</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Receive Bank Payment</description>
+   <name>Receive Bank Payment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>4d65b3dc-663d-439f-92fe-c2d624e4ee38</testSuiteGuid>
+   <testCaseLink>
+      <guid>357ab73f-1a7f-4487-9af0-b6a990ff63ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/5. Receive Bank/5.1 Melakukan Submit Receive Payment seharusnya data berhasil di-Submit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f8a3d61a-76a7-4aca-b5e0-41027c267605</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Receive Bank Payment/Receive Bank Payment</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f8a3d61a-76a7-4aca-b5e0-41027c267605</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>38a7e6d0-fd1f-4820-a69d-92513f7173bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f8a3d61a-76a7-4aca-b5e0-41027c267605</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>68f1f8f6-1dc0-483e-8a6c-42617e99d715</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f8a3d61a-76a7-4aca-b5e0-41027c267605</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Search_Receive</value>
+         <variableId>af6f5400-0fda-4977-a760-1fd5ea7a65a4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c69d480a-188d-4ba0-b993-360e4f4d0784</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/5. Receive Bank/5.2 Melakukan Submit Receive Payment tanpa memilih data seharusnya data tidak berhasil di-Submit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7f37fd64-7e8b-43b8-b754-92e11e72028e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Receive Bank Payment/Receive Bank Payment</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7f37fd64-7e8b-43b8-b754-92e11e72028e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>a006bf41-ec59-4e5f-bced-0f8ebbd6d084</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7f37fd64-7e8b-43b8-b754-92e11e72028e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>6c51fbe3-885b-4aae-b9f0-42432e0a38fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7f37fd64-7e8b-43b8-b754-92e11e72028e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Search_Receive</value>
+         <variableId>8bd30673-bc79-49fd-b40e-39e7068e538d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

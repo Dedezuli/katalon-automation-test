@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Create Man Power,Chrome 115.0.0.0,Create Man Power,,2023-08-09 11:06:14,2023-08-09 11:06:49,34.842s,PASSED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.1 Mengakses halaman ManPower List seharusnya data berhasil tampil,Chrome 115.0.0.0,Create Man Power,Create Man Power,2023-08-09 11:06:15,2023-08-09 11:06:49,34.368s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-09 11:06:15,2023-08-09 11:06:19,3.822s,PASSED
+navigateToUrl(url),Chrome 115.0.0.0,,,2023-08-09 11:06:19,2023-08-09 11:06:25,6.098s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-09 11:06:25,2023-08-09 11:06:25,0.181s,PASSED
+"click(findTestObject(""Login/a_Login""))",Chrome 115.0.0.0,,,2023-08-09 11:06:25,2023-08-09 11:06:27,1.620s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:06:27,2023-08-09 11:06:30,3.063s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-09 11:06:30,2023-08-09 11:06:31,0.475s,PASSED
+"setText(findTestObject(""Login/input_UserName""), Username)",Chrome 115.0.0.0,,,2023-08-09 11:06:31,2023-08-09 11:06:32,0.935s,PASSED
+"setText(findTestObject(""Login/input_Password""), Password)",Chrome 115.0.0.0,,,2023-08-09 11:06:32,2023-08-09 11:06:32,0.831s,PASSED
+"setText(findTestObject(""Login/input_Captcha""), ""aa"")",Chrome 115.0.0.0,,,2023-08-09 11:06:32,2023-08-09 11:06:33,0.966s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:06:33,2023-08-09 11:06:36,3.012s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-09 11:06:36,2023-08-09 11:06:37,0.557s,PASSED
+"click(findTestObject(""Login/button_Log In""))",Chrome 115.0.0.0,,,2023-08-09 11:06:37,2023-08-09 11:06:39,1.835s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:06:39,2023-08-09 11:06:42,3.015s,PASSED
+"navigateToUrl(""https://newprmdev.kalbenutritionals.web.id/PromoOnline/ManPower"")",Chrome 115.0.0.0,,,2023-08-09 11:06:42,2023-08-09 11:06:43,1.191s,PASSED
+"click(findTestObject(""Ready to Pay/Maximize""))",Chrome 115.0.0.0,,,2023-08-09 11:06:43,2023-08-09 11:06:43,0.003s,NOT_RUN
+delay(3),Chrome 115.0.0.0,,,2023-08-09 11:06:43,2023-08-09 11:06:46,3.005s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-09 11:06:46,2023-08-09 11:06:48,1.999s,PASSED
+"verifyElementPresent(findTestObject(""Man Power/Man Power List/a_List Form RFP""), 3)",Chrome 115.0.0.0,,,2023-08-09 11:06:48,2023-08-09 11:06:48,0.375s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-09 11:06:48,2023-08-09 11:06:49,0.857s,PASSED

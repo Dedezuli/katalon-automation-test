@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1. Create Man Power" time="19.908" tests="1" failures="1" errors="0">
+   <testsuite name="1. Create Man Power" tests="1" failures="1" errors="0" time="19.908" skipped="0" timestamp="2023-08-07 13:33:11" hostname="SHP - 10.171.86.141" id="Test Suites/Man Power/1. Create Man Power">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Kalbe-Nutritionals\\poa-frontend-automation\\Reports\\20230807_133306\\Man Power\\1. Create Man Power\\20230807_133306"/>
+         <property name="logFiles" value="D:\\Kalbe-Nutritionals\\poa-frontend-automation\\Reports\\20230807_133306\\Man Power\\1. Create Man Power\\20230807_133306\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SHP - 10.171.86.141"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Firefox 68.0"/>
+         <property name="hostAddress" value="10.171.86.141"/>
+         <property name="sessionId" value="6ac3f33b-6c6a-4498-b556-a4c02100ec19"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit" time="19.317" classname="Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at 4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit.run(4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691389986675.run(TempTestSuite1691389986675.groovy:36)
+Caused by: java.lang.UnsatisfiedLinkError: C:\Users\SHP\.katalon\packages\Katalon_Studio_Windows_64-8.6.5\Katalon_Studio_Windows_64-8.6.5\jre\bin\awt.dll: Can't find dependent libraries
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotScroll(Browser.java:208)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:163)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:90)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-07 13:33:12 - [TEST_CASE][FAILED] - Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit: Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at 4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit.run(4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691389986675.run(TempTestSuite1691389986675.groovy:36)
+Caused by: java.lang.UnsatisfiedLinkError: C:\Users\SHP\.katalon\packages\Katalon_Studio_Windows_64-8.6.5\Katalon_Studio_Windows_64-8.6.5\jre\bin\awt.dll: Can't find dependent libraries
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotScroll(Browser.java:208)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:163)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:90)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-07 13:33:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-07 13:33:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-07 13:33:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-07 13:33:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-07 13:33:21 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://newprmdev.kalbenutritionals.web.id/' successfully
+
+2023-08-07 13:33:23 - [MESSAGE][PASSED] - Navigate to 'https://newprmdev.kalbenutritionals.web.id/' successfully
+
+2023-08-07 13:33:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-07 13:33:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-07 13:33:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Login")): Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-08-07 13:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-08-07 13:33:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 13:33:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 13:33:31 - [TEST_STEP][FAILED] - takeFullPageScreenshot(): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at 4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit.run(4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691389986675.run(TempTestSuite1691389986675.groovy:36)
+Caused by: java.lang.UnsatisfiedLinkError: C:\Users\SHP\.katalon\packages\Katalon_Studio_Windows_64-8.6.5\Katalon_Studio_Windows_64-8.6.5\jre\bin\awt.dll: Can't find dependent libraries
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotScroll(Browser.java:208)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:163)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:90)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at Script1690533456410.run(Script1690533456410.groovy:30)
+	... 13 more
+)
+
+2023-08-07 13:33:31 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at 4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit.run(4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691389986675.run(TempTestSuite1691389986675.groovy:36)
+Caused by: java.lang.UnsatisfiedLinkError: C:\Users\SHP\.katalon\packages\Katalon_Studio_Windows_64-8.6.5\Katalon_Studio_Windows_64-8.6.5\jre\bin\awt.dll: Can't find dependent libraries
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotScroll(Browser.java:208)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:163)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:90)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at Script1690533456410.run(Script1690533456410.groovy:30)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2023-08-07 13:33:12 - [TEST_CASE][FAILED] - Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit: Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at 4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit.run(4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691389986675.run(TempTestSuite1691389986675.groovy:36)
+Caused by: java.lang.UnsatisfiedLinkError: C:\Users\SHP\.katalon\packages\Katalon_Studio_Windows_64-8.6.5\Katalon_Studio_Windows_64-8.6.5\jre\bin\awt.dll: Can't find dependent libraries
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotScroll(Browser.java:208)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:163)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:90)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-07 13:33:11 - [TEST_SUITE][FAILED] - 1. Create Man Power: Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at 4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit.run(4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691389986675.run(TempTestSuite1691389986675.groovy:36)
+Caused by: java.lang.UnsatisfiedLinkError: C:\Users\SHP\.katalon\packages\Katalon_Studio_Windows_64-8.6.5\Katalon_Studio_Windows_64-8.6.5\jre\bin\awt.dll: Can't find dependent libraries
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotScroll(Browser.java:208)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:163)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:90)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-07 13:33:11 - [TEST_SUITE][FAILED] - 1. Create Man Power: Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshot(WebUiBuiltInKeywords.groovy:3283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshot$3.call(Unknown Source)
+	at 4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit.run(4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691389986675.run(TempTestSuite1691389986675.groovy:36)
+Caused by: java.lang.UnsatisfiedLinkError: C:\Users\SHP\.katalon\packages\Katalon_Studio_Windows_64-8.6.5\Katalon_Studio_Windows_64-8.6.5\jre\bin\awt.dll: Can't find dependent libraries
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotScroll(Browser.java:208)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:163)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:90)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

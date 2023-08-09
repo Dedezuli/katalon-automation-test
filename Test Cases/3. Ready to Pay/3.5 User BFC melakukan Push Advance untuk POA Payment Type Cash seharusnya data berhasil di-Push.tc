@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BFC Ready to Pay</description>
+   <name>3.5 User BFC melakukan Push Advance untuk POA Payment Type Cash seharusnya data berhasil di-Push</name>
+   <tag>BFC Ready to Pay</tag>
+   <comment></comment>
+   <testCaseGuid>769fe5f3-dd27-4499-85ae-296fee3b9fa6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>23d71b43-b2f0-450c-bfa0-b6ce61925d2a</id>
+      <masked>false</masked>
+      <name>Search_RDTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53bb6ffe-b616-4de7-a2aa-8d2b57873e9c</id>
+      <masked>false</masked>
+      <name>Transfer_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e21fd3ff-2225-4ea5-b394-0115d2d9e4d6</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

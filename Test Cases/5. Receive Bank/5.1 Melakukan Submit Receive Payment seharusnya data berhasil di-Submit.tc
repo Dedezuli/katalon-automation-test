@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Create Receive Bank Payment</description>
+   <name>5.1 Melakukan Submit Receive Payment seharusnya data berhasil di-Submit</name>
+   <tag>1. Create Receive Bank Payment</tag>
+   <comment></comment>
+   <testCaseGuid>ecebc5a8-8b19-4e97-b468-e6031da43402</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38a7e6d0-fd1f-4820-a69d-92513f7173bc</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68f1f8f6-1dc0-483e-8a6c-42617e99d715</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>af6f5400-0fda-4977-a760-1fd5ea7a65a4</id>
+      <masked>false</masked>
+      <name>Search_Receive</name>
+   </variable>
+</TestCaseEntity>

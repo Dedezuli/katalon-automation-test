@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Approval POA</description>
+   <name>2.4 Approve with Budget PRM (Man Power) seharusnya data berhasil di-Approve</name>
+   <tag>Approval POA</tag>
+   <comment></comment>
+   <testCaseGuid>21c3439a-c78e-40c9-b326-6b42bc9963b3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4f380365-63a9-40c7-8623-49298b98440a</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0bb765f6-afc4-4b83-8036-09f5bdb754f0</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7cb42ef0-c671-44c9-96de-c73e6ac10ad7</id>
+      <masked>false</masked>
+      <name>Search_POA</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>141ced22-16f5-4f25-bce7-b19d3299a0fc</id>
+      <masked>false</masked>
+      <name>Action</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48329582-5a99-4dc1-a571-2a6b448f96cd</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26f2e748-4b2e-4861-abb2-30ebd8133d0c</id>
+      <masked>false</masked>
+      <name>Jabatan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7a3d3bd-e5da-4095-8f2b-6698ec082b6e</id>
+      <masked>false</masked>
+      <name>Branch</name>
+   </variable>
+</TestCaseEntity>

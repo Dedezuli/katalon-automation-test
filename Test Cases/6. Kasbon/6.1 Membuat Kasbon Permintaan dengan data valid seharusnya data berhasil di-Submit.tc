@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Kasbon</description>
+   <name>6.1 Membuat Kasbon Permintaan dengan data valid seharusnya data berhasil di-Submit</name>
+   <tag>Create Kasbon</tag>
+   <comment></comment>
+   <testCaseGuid>3c56751a-f2fd-4afe-8728-95a3dd9aa491</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>621e6add-ecc3-4714-8517-a39af44b15fd</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8006c5b6-c5e0-4ede-8a75-cd84e86d0e2a</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a6fc7a3-2ef8-47ca-b4b4-92241fd9b140</id>
+      <masked>false</masked>
+      <name>Search</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30025930-97dd-4d3b-88ff-805013bbcac0</id>
+      <masked>false</masked>
+      <name>Tipe_Kasbon</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c43a027-988c-4d66-9d42-0c31d309f851</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8bae062c-b13c-42e3-92a8-2e5bac260a51</id>
+      <masked>false</masked>
+      <name>Jabatan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5f85915-8c02-42f6-ae8c-90ee910627d6</id>
+      <masked>false</masked>
+      <name>Branch</name>
+   </variable>
+</TestCaseEntity>

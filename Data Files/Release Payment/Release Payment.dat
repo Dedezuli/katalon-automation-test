@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Release Payment</description>
+   <name>Release Payment</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9b4a9426-08ea-4b0d-8078-8f7ff5214ac2</dataFileGUID>
+   <dataSourceUrl>D:\Kalbe Nutritionals\POA\Katalon\poa-frontend-automation\Data Files\Test Data.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Release Payment</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Approval POA</description>
+   <name>2.6 Edit data program seharusnya data berhasil disimpan</name>
+   <tag>Approval POA</tag>
+   <comment></comment>
+   <testCaseGuid>293e01b0-5998-4212-9ab3-5cab04eb17b0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0c9750c-da98-4d02-9105-424331ece222</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b376d682-eab8-4b90-99de-113535d790b4</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4eaef3c-62e6-4a05-9510-a6c0a6997bdf</id>
+      <masked>false</masked>
+      <name>Search_POA</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d548f1b3-10b9-4e77-99ff-df89f2e898e1</id>
+      <masked>false</masked>
+      <name>Action</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca3dd7a7-7739-43bb-ab41-d761899c4874</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9687ca65-1d9e-4c1a-893a-803005147cf8</id>
+      <masked>false</masked>
+      <name>Jabatan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59849bcf-6761-43bb-9df5-4c345b233e0e</id>
+      <masked>false</masked>
+      <name>Branch</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>661c17fa-71fc-439d-a4fd-66e665ecb6c1</id>
+      <masked>false</masked>
+      <name>Payment_Type</name>
+   </variable>
+</TestCaseEntity>

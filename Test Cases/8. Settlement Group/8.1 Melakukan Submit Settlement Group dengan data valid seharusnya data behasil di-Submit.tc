@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Settlement Group</description>
+   <name>8.1 Melakukan Submit Settlement Group dengan data valid seharusnya data behasil di-Submit</name>
+   <tag>1. Settlement Group</tag>
+   <comment></comment>
+   <testCaseGuid>f08d235d-bc76-4483-995e-9c32179b6cce</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>161f59b3-231d-4814-94af-55adf349499a</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>561b3e9d-5d2a-40f1-9d19-cb6d1943eb4b</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd85cdb2-f23e-4355-8ead-a12e1676f108</id>
+      <masked>false</masked>
+      <name>Grouping</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc7083b9-5a80-4119-be8e-360fa04687a0</id>
+      <masked>false</masked>
+      <name>POA</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9f25f81-5a48-4b5f-b853-1f93231a595f</id>
+      <masked>false</masked>
+      <name>Item_InvoiceNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87952976-2cc7-42c0-bf76-2cdd26d803ab</id>
+      <masked>false</masked>
+      <name>Item_Desc</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1cfbe150-af24-49eb-8a26-7279f57d5fab</id>
+      <masked>false</masked>
+      <name>Item_Price</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fe7f94bf-2d24-42c4-adb0-4f27ac9ef2bd</id>
+      <masked>false</masked>
+      <name>Tax_InvoiceNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03798878-7349-4622-a492-e856425492c7</id>
+      <masked>false</masked>
+      <name>Tax_InvoiceDate</name>
+   </variable>
+</TestCaseEntity>

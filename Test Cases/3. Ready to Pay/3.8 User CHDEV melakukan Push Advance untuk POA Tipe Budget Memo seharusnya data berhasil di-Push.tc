@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BFC Ready to Pay</description>
+   <name>3.8 User CHDEV melakukan Push Advance untuk POA Tipe Budget Memo seharusnya data berhasil di-Push</name>
+   <tag>BFC Ready to Pay</tag>
+   <comment></comment>
+   <testCaseGuid>cac4ec54-632f-4d94-b268-8c4a3666af67</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa3f867e-98d8-4df0-8ee4-3016cf0601c1</id>
+      <masked>false</masked>
+      <name>Search_RDTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e9496c63-7c04-4383-bd67-637cd0654eeb</id>
+      <masked>false</masked>
+      <name>Transfer_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8889212b-efbf-4482-8eea-101e2e1e8a1f</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

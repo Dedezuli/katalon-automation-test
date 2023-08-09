@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Release Payment</description>
+   <name>7.2 Mencari data pada Tab To Do List seharusnya data yang dicari berhasil tampil</name>
+   <tag>Create Release Payment</tag>
+   <comment></comment>
+   <testCaseGuid>a6e14dfe-794e-4223-8207-34bb204e3f75</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34f75b0d-609d-4cb8-8b60-5f8fcd44f608</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e5d71cbb-6354-4564-8abb-2007e975349f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac5e8228-7bc2-402f-b51d-00a5b864f9cd</id>
+      <masked>false</masked>
+      <name>dateRelease</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93d8b055-99c0-4383-811f-1b148f10e14b</id>
+      <masked>false</masked>
+      <name>Requestor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0cbdea27-6293-4c4a-adff-e5cb39062499</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

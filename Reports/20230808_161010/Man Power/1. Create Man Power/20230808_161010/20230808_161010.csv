@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Create Man Power,Firefox 102.0,Create Man Power,,2023-08-08 16:10:15,2023-08-08 16:12:32,2m - 17.162s,FAILED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.1 Mengakses halaman ManPower List seharusnya data berhasil tampil,Firefox 102.0,Create Man Power,Create Man Power,2023-08-08 16:10:15,2023-08-08 16:11:50,1m - 34.887s,PASSED
+"openBrowser("""")",Firefox 102.0,,,2023-08-08 16:10:16,2023-08-08 16:10:58,42.613s,PASSED
+navigateToUrl(url),Firefox 102.0,,,2023-08-08 16:10:58,2023-08-08 16:11:10,11.405s,PASSED
+maximizeWindow(),Firefox 102.0,,,2023-08-08 16:11:10,2023-08-08 16:11:11,1.646s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 102.0,,,2023-08-08 16:11:11,2023-08-08 16:11:20,8.034s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 16:11:20,2023-08-08 16:11:23,3.142s,PASSED
+takeScreenshot(),Firefox 102.0,,,2023-08-08 16:11:23,2023-08-08 16:11:24,1.216s,PASSED
+"setText(findTestObject(""Login/input_UserName""), Username)",Firefox 102.0,,,2023-08-08 16:11:24,2023-08-08 16:11:25,1.328s,PASSED
+"setText(findTestObject(""Login/input_Password""), Password)",Firefox 102.0,,,2023-08-08 16:11:25,2023-08-08 16:11:27,1.506s,PASSED
+"setText(findTestObject(""Login/input_Captcha""), ""aa"")",Firefox 102.0,,,2023-08-08 16:11:27,2023-08-08 16:11:28,0.942s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 16:11:28,2023-08-08 16:11:31,3.017s,PASSED
+takeScreenshot(),Firefox 102.0,,,2023-08-08 16:11:31,2023-08-08 16:11:32,1.274s,PASSED
+"click(findTestObject(""Login/button_Log In""))",Firefox 102.0,,,2023-08-08 16:11:32,2023-08-08 16:11:35,2.806s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 16:11:35,2023-08-08 16:11:38,3.018s,PASSED
+"navigateToUrl(""https://newprmdev.kalbenutritionals.web.id/PromoOnline/ManPower"")",Firefox 102.0,,,2023-08-08 16:11:38,2023-08-08 16:11:42,3.723s,PASSED
+"click(findTestObject(""Ready to Pay/Maximize""))",Firefox 102.0,,,2023-08-08 16:11:42,2023-08-08 16:11:42,0.006s,NOT_RUN
+delay(3),Firefox 102.0,,,2023-08-08 16:11:42,2023-08-08 16:11:45,3.019s,PASSED
+takeScreenshot(),Firefox 102.0,,,2023-08-08 16:11:45,2023-08-08 16:11:47,2.315s,PASSED
+"verifyElementPresent(findTestObject(""Man Power/Man Power List/a_List Form RFP""), 3)",Firefox 102.0,,,2023-08-08 16:11:47,2023-08-08 16:11:47,0.426s,PASSED
+closeBrowser(),Firefox 102.0,,,2023-08-08 16:11:47,2023-08-08 16:11:50,2.740s,PASSED
+,,,,,,,
+Test Cases/4. Man Power/4. Man Power List/4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit,Firefox 102.0,Create Man Power,Create Man Power,2023-08-08 16:11:50,2023-08-08 16:12:32,41.275s,FAILED
+"openBrowser("""")",Firefox 102.0,,,2023-08-08 16:11:52,2023-08-08 16:12:08,15.940s,PASSED
+navigateToUrl(url),Firefox 102.0,,,2023-08-08 16:12:08,2023-08-08 16:12:18,10.263s,PASSED
+maximizeWindow(),Firefox 102.0,,,2023-08-08 16:12:18,2023-08-08 16:12:19,0.606s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 102.0,,,2023-08-08 16:12:19,2023-08-08 16:12:24,4.993s,PASSED
+delay(3),Firefox 102.0,,,2023-08-08 16:12:24,2023-08-08 16:12:27,3.019s,PASSED
+takeFullPageScreenshot(),Firefox 102.0,,,2023-08-08 16:12:27,2023-08-08 16:12:32,4.822s,FAILED

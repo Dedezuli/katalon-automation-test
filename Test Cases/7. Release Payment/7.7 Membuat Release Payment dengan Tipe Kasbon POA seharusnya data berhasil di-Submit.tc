@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Release Payment</description>
+   <name>7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit</name>
+   <tag>Create Release Payment</tag>
+   <comment></comment>
+   <testCaseGuid>30da623d-8982-4775-9cfc-3ab39572ea75</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ef4703c-a279-4cfa-a27b-3d5d4aac8404</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e850733-0629-47b1-902d-be4d09ed58e0</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bbc776a3-a88f-417d-a23d-66aa43f2a086</id>
+      <masked>false</masked>
+      <name>dateRelease</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f67a173a-1ffd-42ab-8ae9-7492f0d65897</id>
+      <masked>false</masked>
+      <name>Requestor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99f90207-b618-4e85-b00f-3070ccef3fc9</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

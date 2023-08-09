@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Release Payment" time="166.505" tests="2" failures="1" errors="0">
+   <testsuite name="Release Payment" tests="2" failures="1" errors="0" time="166.505" skipped="0" timestamp="2023-08-07 10:59:48" hostname="HP - 10.171.86.132" id="Test Suites/Release Payment/Release Payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938"/>
+         <property name="logFiles" value="D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\execution0.log"/>
+         <property name="attachments" value="D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380809851.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380817823.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380829565.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380836198.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380847419.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380852385.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380873407.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380881475.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380894616.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380900938.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380915910.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380920670.png, D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380954235.png"/>
+         <property name="hostName" value="HP - 10.171.86.132"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="10.171.86.132"/>
+         <property name="sessionId" value="a6c2eda317973c11f51212d7820bc01d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/7. Release Payment/7.8 Membuat Release Payment tanpa Description seharusnya data tidak berhasil di-Submit" time="65.15" classname="Test Cases/7. Release Payment/7.8 Membuat Release Payment tanpa Description seharusnya data tidak berhasil di-Submit" status="PASSED">
+         <system-out><![CDATA[2023-08-07 10:59:49 - [TEST_CASE][PASSED] - Test Cases/7. Release Payment/7.8 Membuat Release Payment tanpa Description seharusnya data tidak berhasil di-Submit: Test Cases/7. Release Payment/7.8 Membuat Release Payment tanpa Description seharusnya data tidak berhasil di-Submit
+
+2023-08-07 10:59:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-07 10:59:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-07 10:59:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-07 10:59:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-07 11:00:00 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://newprmdev.kalbenutritionals.web.id/' successfully
+
+2023-08-07 11:00:03 - [MESSAGE][PASSED] - Navigate to 'https://newprmdev.kalbenutritionals.web.id/' successfully
+
+2023-08-07 11:00:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-07 11:00:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-07 11:00:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Login")): Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-08-07 11:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-08-07 11:00:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:00:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:00:09 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:00:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:00:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380809851.png]]
+
+2023-08-07 11:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_UserName"), "adm.jember"): Text 'adm.jember' is set on object 'Object Repository/Login/input_UserName'
+
+2023-08-07 11:00:12 - [MESSAGE][PASSED] - Text 'adm.jember' is set on object 'Object Repository/Login/input_UserName'
+
+2023-08-07 11:00:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), "asdf"): Text 'asdf' is set on object 'Object Repository/Login/input_Password'
+
+2023-08-07 11:00:13 - [MESSAGE][PASSED] - Text 'asdf' is set on object 'Object Repository/Login/input_Password'
+
+2023-08-07 11:00:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Captcha"), "aa"): Text 'aa' is set on object 'Object Repository/Login/input_Captcha'
+
+2023-08-07 11:00:14 - [MESSAGE][PASSED] - Text 'aa' is set on object 'Object Repository/Login/input_Captcha'
+
+2023-08-07 11:00:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:00:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:00:17 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:00:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:00:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380817823.png]]
+
+2023-08-07 11:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Log In")): Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2023-08-07 11:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2023-08-07 11:00:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:00:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Ready to Pay/a_BOA")): Object: 'Object Repository/Ready to Pay/a_BOA' is clicked on
+
+2023-08-07 11:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Ready to Pay/a_BOA' is clicked on
+
+2023-08-07 11:00:24 - [TEST_STEP][PASSED] - click(findTestObject("Ready to Pay/a_TRANSACTION BOA")): Object: 'Object Repository/Ready to Pay/a_TRANSACTION BOA' is clicked on
+
+2023-08-07 11:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Ready to Pay/a_TRANSACTION BOA' is clicked on
+
+2023-08-07 11:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/a_Release Payment")): Object: 'Object Repository/Release Payment/a_Release Payment' is clicked on
+
+2023-08-07 11:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/a_Release Payment' is clicked on
+
+2023-08-07 11:00:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Ready to Pay/Maximize")): NOT_RUN: click(findTestObject("Ready to Pay/Maximize"))
+
+2023-08-07 11:00:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Ready to Pay/Maximize"))
+
+2023-08-07 11:00:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:00:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:00:29 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:00:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:00:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380829565.png]]
+
+2023-08-07 11:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/a_Create")): Object: 'Object Repository/Release Payment/a_Create' is clicked on
+
+2023-08-07 11:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/a_Create' is clicked on
+
+2023-08-07 11:00:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:00:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:00:36 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:00:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:00:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380836198.png]]
+
+2023-08-07 11:00:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Release Payment/select_TipeKasbon"), "POA", false): All options with label 'POA' are selected in object 'Object Repository/Release Payment/select_TipeKasbon' 
+
+2023-08-07 11:00:38 - [MESSAGE][PASSED] - All options with label 'POA' are selected in object 'Object Repository/Release Payment/select_TipeKasbon' 
+
+2023-08-07 11:00:38 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/button_RELEASE DATE"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/button_RELEASE DATE' is clicked on
+
+2023-08-07 11:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/button_RELEASE DATE' is clicked on
+
+2023-08-07 11:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/a_Date28")): Object: 'Object Repository/Release Payment/a_Date28' is clicked on
+
+2023-08-07 11:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/a_Date28' is clicked on
+
+2023-08-07 11:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/button_Find_REQUESTOR"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/button_Find_REQUESTOR' is clicked on
+
+2023-08-07 11:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/button_Find_REQUESTOR' is clicked on
+
+2023-08-07 11:00:40 - [TEST_STEP][PASSED] - setText(findTestObject("Release Payment/input_search_Pegawai"), Requestor): Text 'jamal' is set on object 'Object Repository/Release Payment/input_search_Pegawai'
+
+2023-08-07 11:00:43 - [MESSAGE][PASSED] - Text 'jamal' is set on object 'Object Repository/Release Payment/input_search_Pegawai'
+
+2023-08-07 11:00:43 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/button_Select_Pegawai"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/button_Select_Pegawai' is clicked on
+
+2023-08-07 11:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/button_Select_Pegawai' is clicked on
+
+2023-08-07 11:00:44 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Release Payment/input_DESCRIPTION"), Description): NOT_RUN: setText(findTestObject("Release Payment/input_DESCRIPTION"), Description)
+
+2023-08-07 11:00:44 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Release Payment/input_DESCRIPTION"), Description)
+
+2023-08-07 11:00:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:00:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:00:47 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:00:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:00:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380847419.png]]
+
+2023-08-07 11:00:48 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/button_Submit"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/button_Submit' is clicked on
+
+2023-08-07 11:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/button_Submit' is clicked on
+
+2023-08-07 11:00:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:00:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:00:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:00:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:00:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380852385.png]]
+
+2023-08-07 11:00:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-07 11:00:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit" time="99.771" classname="Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at 7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit.run(7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691380778044.run(TempTestSuite1691380778044.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Release Payment/input_TRANSACTION NO' located by '//input[@id='XXSHP_PRO_T_RELEASE_PAYMENT_HDR_TXT_TRANSACTION_NO']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-07 11:00:54 - [TEST_CASE][FAILED] - Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit: Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at 7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit.run(7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691380778044.run(TempTestSuite1691380778044.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Release Payment/input_TRANSACTION NO' located by '//input[@id='XXSHP_PRO_T_RELEASE_PAYMENT_HDR_TXT_TRANSACTION_NO']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-07 11:00:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-07 11:00:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-07 11:00:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-07 11:01:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-07 11:01:02 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://newprmdev.kalbenutritionals.web.id/' successfully
+
+2023-08-07 11:01:07 - [MESSAGE][PASSED] - Navigate to 'https://newprmdev.kalbenutritionals.web.id/' successfully
+
+2023-08-07 11:01:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-07 11:01:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-07 11:01:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Login")): Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-08-07 11:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-08-07 11:01:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:01:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:01:13 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:01:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:01:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380873407.png]]
+
+2023-08-07 11:01:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_UserName"), Username): Text 'adm.bogor' is set on object 'Object Repository/Login/input_UserName'
+
+2023-08-07 11:01:15 - [MESSAGE][PASSED] - Text 'adm.bogor' is set on object 'Object Repository/Login/input_UserName'
+
+2023-08-07 11:01:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), Password): Text 'aa' is set on object 'Object Repository/Login/input_Password'
+
+2023-08-07 11:01:16 - [MESSAGE][PASSED] - Text 'aa' is set on object 'Object Repository/Login/input_Password'
+
+2023-08-07 11:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Captcha"), "aa"): Text 'aa' is set on object 'Object Repository/Login/input_Captcha'
+
+2023-08-07 11:01:18 - [MESSAGE][PASSED] - Text 'aa' is set on object 'Object Repository/Login/input_Captcha'
+
+2023-08-07 11:01:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:01:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:01:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:01:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:01:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380881475.png]]
+
+2023-08-07 11:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Log In")): Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2023-08-07 11:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2023-08-07 11:01:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:01:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Ready to Pay/a_BOA")): Object: 'Object Repository/Ready to Pay/a_BOA' is clicked on
+
+2023-08-07 11:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Ready to Pay/a_BOA' is clicked on
+
+2023-08-07 11:01:28 - [TEST_STEP][PASSED] - click(findTestObject("Ready to Pay/a_TRANSACTION BOA")): Object: 'Object Repository/Ready to Pay/a_TRANSACTION BOA' is clicked on
+
+2023-08-07 11:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Ready to Pay/a_TRANSACTION BOA' is clicked on
+
+2023-08-07 11:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/a_Release Payment")): Object: 'Object Repository/Release Payment/a_Release Payment' is clicked on
+
+2023-08-07 11:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/a_Release Payment' is clicked on
+
+2023-08-07 11:01:31 - [TEST_STEP][NOT_RUN] - click(findTestObject("Ready to Pay/Maximize")): NOT_RUN: click(findTestObject("Ready to Pay/Maximize"))
+
+2023-08-07 11:01:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Ready to Pay/Maximize"))
+
+2023-08-07 11:01:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:01:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:01:34 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:01:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:01:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380894616.png]]
+
+2023-08-07 11:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/a_Create")): Object: 'Object Repository/Release Payment/a_Create' is clicked on
+
+2023-08-07 11:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/a_Create' is clicked on
+
+2023-08-07 11:01:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:01:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:01:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:01:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:01:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380900938.png]]
+
+2023-08-07 11:01:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Release Payment/select_TipeKasbon"), "POA", false): All options with label 'POA' are selected in object 'Object Repository/Release Payment/select_TipeKasbon' 
+
+2023-08-07 11:01:43 - [MESSAGE][PASSED] - All options with label 'POA' are selected in object 'Object Repository/Release Payment/select_TipeKasbon' 
+
+2023-08-07 11:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/button_RELEASE DATE"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/button_RELEASE DATE' is clicked on
+
+2023-08-07 11:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/button_RELEASE DATE' is clicked on
+
+2023-08-07 11:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/a_DatePick", ["dateRelease":dateRelease])): Object: 'Object Repository/Release Payment/a_DatePick' is clicked on
+
+2023-08-07 11:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/a_DatePick' is clicked on
+
+2023-08-07 11:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/button_Find_REQUESTOR"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/button_Find_REQUESTOR' is clicked on
+
+2023-08-07 11:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/button_Find_REQUESTOR' is clicked on
+
+2023-08-07 11:01:45 - [TEST_STEP][PASSED] - setText(findTestObject("Release Payment/input_search_Pegawai"), Requestor): Text 'jamal' is set on object 'Object Repository/Release Payment/input_search_Pegawai'
+
+2023-08-07 11:01:49 - [MESSAGE][PASSED] - Text 'jamal' is set on object 'Object Repository/Release Payment/input_search_Pegawai'
+
+2023-08-07 11:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/button_Select_Pegawai"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/button_Select_Pegawai' is clicked on
+
+2023-08-07 11:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/button_Select_Pegawai' is clicked on
+
+2023-08-07 11:01:50 - [TEST_STEP][PASSED] - setText(findTestObject("Release Payment/input_DESCRIPTION"), Description): Text 'released' is set on object 'Object Repository/Release Payment/input_DESCRIPTION'
+
+2023-08-07 11:01:52 - [MESSAGE][PASSED] - Text 'released' is set on object 'Object Repository/Release Payment/input_DESCRIPTION'
+
+2023-08-07 11:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/input_first checkbox"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/input_first checkbox' is clicked on
+
+2023-08-07 11:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/input_first checkbox' is clicked on
+
+2023-08-07 11:01:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:01:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:01:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:01:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:01:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380915910.png]]
+
+2023-08-07 11:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Release Payment/button_Submit"), STOP_ON_FAILURE): Object: 'Object Repository/Release Payment/button_Submit' is clicked on
+
+2023-08-07 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Release Payment/button_Submit' is clicked on
+
+2023-08-07 11:01:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-07 11:02:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-07 11:02:00 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-08-07 11:02:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-08-07 11:02:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380920670.png]]
+
+2023-08-07 11:02:01 - [TEST_STEP][FAILED] - transNo = getAttribute(findTestObject("Release Payment/input_TRANSACTION NO"), "value"): Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at 7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit.run(7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691380778044.run(TempTestSuite1691380778044.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Release Payment/input_TRANSACTION NO' located by '//input[@id='XXSHP_PRO_T_RELEASE_PAYMENT_HDR_TXT_TRANSACTION_NO']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at Script1690859786143.run(Script1690859786143.groovy:90)
+	... 13 more
+)
+
+2023-08-07 11:02:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='XXSHP_PRO_T_RELEASE_PAYMENT_HDR_TXT_TRANSACTION_NO']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-07 11:02:34 - [MESSAGE][FAILED] - Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at 7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit.run(7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691380778044.run(TempTestSuite1691380778044.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Release Payment/input_TRANSACTION NO' located by '//input[@id='XXSHP_PRO_T_RELEASE_PAYMENT_HDR_TXT_TRANSACTION_NO']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at Script1690859786143.run(Script1690859786143.groovy:90)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Kalbe Nutritionals\\POA\\Katalon\\poa-frontend-automation\\Reports\\20230807_105938\\Release Payment\\Release Payment\\20230807_105938\\1691380954235.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-07 11:00:54 - [TEST_CASE][FAILED] - Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit: Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at 7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit.run(7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691380778044.run(TempTestSuite1691380778044.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Release Payment/input_TRANSACTION NO' located by '//input[@id='XXSHP_PRO_T_RELEASE_PAYMENT_HDR_TXT_TRANSACTION_NO']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-07 10:59:48 - [TEST_SUITE][FAILED] - Release Payment: Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at 7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit.run(7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691380778044.run(TempTestSuite1691380778044.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Release Payment/input_TRANSACTION NO' located by '//input[@id='XXSHP_PRO_T_RELEASE_PAYMENT_HDR_TXT_TRANSACTION_NO']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-07 10:59:48 - [TEST_SUITE][FAILED] - Release Payment: Test Cases/7. Release Payment/7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get attribute 'value' of object 'Object Repository/Release Payment/input_TRANSACTION NO'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:951)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAttribute$8.call(Unknown Source)
+	at 7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit.run(7.7 Membuat Release Payment dengan Tipe Kasbon POA seharusnya data berhasil di-Submit:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691380778044.run(TempTestSuite1691380778044.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Release Payment/input_TRANSACTION NO' located by '//input[@id='XXSHP_PRO_T_RELEASE_PAYMENT_HDR_TXT_TRANSACTION_NO']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.call(GetAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

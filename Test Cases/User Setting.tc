@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Setting</description>
+   <name>User Setting</name>
+   <tag>User Setting</tag>
+   <comment></comment>
+   <testCaseGuid>53006725-b31d-4c56-9020-4df2d8246a33</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>510e7699-ac1c-4d68-9ea4-486142fa39ec</id>
+      <masked>false</masked>
+      <name>roleID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6bbab78f-23f0-4bed-bf54-aded9f2d7d4f</id>
+      <masked>false</masked>
+      <name>branchID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>472dd827-d95e-4152-b220-1d672233032b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

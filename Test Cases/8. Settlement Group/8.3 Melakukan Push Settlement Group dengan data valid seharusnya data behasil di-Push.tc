@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Settlement Group</description>
+   <name>8.3 Melakukan Push Settlement Group dengan data valid seharusnya data behasil di-Push</name>
+   <tag>1. Settlement Group</tag>
+   <comment></comment>
+   <testCaseGuid>3a2db659-d89f-4f73-b41c-7dd9edd73783</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c697bfd-de29-490f-899a-d98139f993d2</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d33e298-28b9-4428-a016-903c7d2fcdfb</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df4c6c41-f245-402e-b463-c17fae6dede1</id>
+      <masked>false</masked>
+      <name>Jabatan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>887ad95a-6c1c-4656-b774-c530cc61b85f</id>
+      <masked>false</masked>
+      <name>Search_POA</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Settlement Group</description>
+   <name>8.2 Melakukan Submit Settlement Group tanpa item seharusnya data tidak behasil di-Submit</name>
+   <tag>1. Settlement Group</tag>
+   <comment></comment>
+   <testCaseGuid>749ad011-83b5-44aa-9f94-1483824d6f3b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8dc7e1fb-4f66-4876-8a47-796f37009860</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a9f2e40-d826-49e6-9109-7902bd0d3308</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f2e9c502-4da4-4b4c-88b3-0760c4d6b396</id>
+      <masked>false</masked>
+      <name>Grouping</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8044f90-1475-4ddd-8ece-cdd688336f8d</id>
+      <masked>false</masked>
+      <name>POA</name>
+   </variable>
+</TestCaseEntity>

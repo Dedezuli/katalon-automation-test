@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BFC Ready to Pay</description>
+   <name>3.7 User CHDEV melakukan Push Advance untuk POA SPP seharusnya data berhasil di-Push</name>
+   <tag>BFC Ready to Pay</tag>
+   <comment></comment>
+   <testCaseGuid>e071280b-75bd-4b80-878e-6279f282003c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e5c36204-a9c6-4bfa-a152-3c7cf309078f</id>
+      <masked>false</masked>
+      <name>Search_RDTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7889866e-a171-4479-ad02-0b15c3cdc3c7</id>
+      <masked>false</masked>
+      <name>Transfer_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42954023-b2d3-4380-9580-279112718fc1</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

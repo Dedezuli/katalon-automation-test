@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Create Receive Bank Payment</description>
+   <name>5.2 Melakukan Submit Receive Payment tanpa memilih data seharusnya data tidak berhasil di-Submit</name>
+   <tag>1. Create Receive Bank Payment</tag>
+   <comment></comment>
+   <testCaseGuid>c884e21e-04e3-4212-9f05-c56f226ed5d0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a006bf41-ec59-4e5f-bced-0f8ebbd6d084</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c51fbe3-885b-4aae-b9f0-42432e0a38fc</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8bd30673-bc79-49fd-b40e-39e7068e538d</id>
+      <masked>false</masked>
+      <name>Search_Receive</name>
+   </variable>
+</TestCaseEntity>

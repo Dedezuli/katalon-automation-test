@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Man Power</description>
+   <name>4.9 Membuat RFP tanpa POA seharusnya data tidak berhasil di-Submit</name>
+   <tag>Create Man Power</tag>
+   <comment></comment>
+   <testCaseGuid>78196e75-e4b7-40a8-9e30-e6965a74b3dc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ef83d95-9eb4-4a6f-bd23-ecc88f0f55af</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6943315f-1227-4fef-bddc-a864ff0e0cf3</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>262b7717-0d2f-4aaf-ba3a-47505e50d722</id>
+      <masked>false</masked>
+      <name>Supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4be968ae-40c4-4821-bc2c-bfef168dacd1</id>
+      <masked>false</masked>
+      <name>Invoice_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4f080ad8-7cde-47a5-a982-9ce7d4da02f7</id>
+      <masked>false</masked>
+      <name>Invoice_Desc</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04321f10-6b96-4574-b5e2-8167c86dde4a</id>
+      <masked>false</masked>
+      <name>Tax_Invoice_Num</name>
+   </variable>
+</TestCaseEntity>

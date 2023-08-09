@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Approval POA</description>
+   <name>2.3 Reject pada View tanpa Comment seharusnya data tidak berhasil di-Reject</name>
+   <tag>Approval POA</tag>
+   <comment></comment>
+   <testCaseGuid>7e441c6f-02be-4833-8b8f-8bfeb788e2d2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ceed7edb-e0dd-4ee0-b37a-b54407e3dc68</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5eaca68b-40b6-4384-b249-e505210ced65</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be9ee8f0-eee3-4dfd-b0bb-9aae03e25528</id>
+      <masked>false</masked>
+      <name>Search_POA</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df849bc3-7c87-4466-a756-e4ce7dacbee0</id>
+      <masked>false</masked>
+      <name>Action</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>840afd45-89bb-4c62-ac9d-02fc64e02854</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eadcd312-aed8-4ca9-812b-1757ad5f21e3</id>
+      <masked>false</masked>
+      <name>Jabatan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>056fb321-5a88-4774-aa37-a25828811220</id>
+      <masked>false</masked>
+      <name>Branch</name>
+   </variable>
+</TestCaseEntity>

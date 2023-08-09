@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BHO Submit RDTP</description>
+   <name>3. BHO Submit RDTP</name>
+   <tag>BHO Submit RDTP</tag>
+   <comment></comment>
+   <testCaseGuid>7d585c78-cfa1-4dac-bac9-7010ca330c8a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_profile</name>
+   <tag></tag>
+   <elementGuidId>6d864823-bf96-4b76-a661-52ce6c6e3511</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-cog</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mCSB_1']/div/div[2]/div/div/div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-cog</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mCSB_1&quot;)/div[@class=&quot;mCSB_container mCS_no_scrollbar&quot;]/div[@class=&quot;profile&quot;]/div[@class=&quot;profile-info&quot;]/div[@class=&quot;profile-buttons&quot;]/div[@class=&quot;btn-group&quot;]/a[@class=&quot;but dropdown-toggle&quot;]/i[@class=&quot;fa fa-cog&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mCSB_1']/div/div[2]/div/div/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BFC Ready to Pay</description>
+   <name>4. BFC Ready to Pay</name>
+   <tag>BFC Ready to Pay</tag>
+   <comment></comment>
+   <testCaseGuid>fbc4aa03-714c-49e8-a083-be6edad402f9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57e6fbb5-db25-4977-aa2e-9cb41f39ed69</id>
+      <masked>false</masked>
+      <name>Search_RDTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5c07686-d34f-47f9-b24b-92bed08453ad</id>
+      <masked>false</masked>
+      <name>Transfer_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>58450764-3939-41e0-b957-ec183106c8ea</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90a3836d-0d5a-4c10-99cc-ed2d99cba536</id>
+      <masked>false</masked>
+      <name>Jabatan</name>
+   </variable>
+</TestCaseEntity>

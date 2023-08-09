@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BHO Check Program</description>
+   <name>2. BHO Check Program</name>
+   <tag>BHO Check Program</tag>
+   <comment></comment>
+   <testCaseGuid>1ba497f7-5e71-48d0-9971-6b256efc28e0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bed4443c-c37b-47ff-ba71-0b2b05c739cd</id>
+      <masked>false</masked>
+      <name>Search_POA</name>
+   </variable>
+</TestCaseEntity>

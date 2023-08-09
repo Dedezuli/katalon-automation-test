@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Release Payment</description>
+   <name>7.8 Membuat Release Payment tanpa Description seharusnya data tidak berhasil di-Submit</name>
+   <tag>Create Release Payment</tag>
+   <comment></comment>
+   <testCaseGuid>69b12be8-3a7b-45a8-b86b-7dd714a6293d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>260f726b-e163-4d94-8e95-1a5f20acbeee</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b94f6c60-3616-456e-8990-ebb03fb92d86</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>70174a12-dc4e-4b45-9240-f782214c656c</id>
+      <masked>false</masked>
+      <name>dateRelease</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90d583f9-2969-4aad-aaa5-d17e2dc5f86d</id>
+      <masked>false</masked>
+      <name>Requestor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0059bf33-5118-46ea-af25-60057566e598</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>
